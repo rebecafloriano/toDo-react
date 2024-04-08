@@ -12,9 +12,7 @@ import './App.css'
 
 
 function App() {
-  const [todos, setTodos] = useState([
-    
-  ])
+  const [todos, setTodos] = useState([])
 
   const [search, setSearch] = useState("")
   // state para o filtro por status
